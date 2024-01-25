@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Unified Platform",
+        "description": "Confereus offers a comprehensive and user-friendly solution for both online and offline conferences. Enjoy a unified platform that streamlines conference management effortlessly."
+    },
+    {
+        "id": 2,
+        "title": "Efficient Conference Management",
+        "description": "Confereus focuses on efficiency by simplifying conference scheduling, event management, and presenter approval. Organizers can now handle the entire process effortlessly, saving time and resources."
+    },
+    {
+        "id": 3,
+        "title": "Reduced Reliance on Abstract Papers",
+        "description": "Say goodbye to the hassle of dealing with abstract papers for presentation submissions. Confereus significantly reduces reliance on traditional methods, making the process smoother for organizers and presenters."
+    },
+    {
+        "id": 4,
+        "title": "Offline Conference Excellence",
+        "description": "For offline conferences, Confereus provides essential location information. Easily find nearby restaurants, hospitals, metro stations, and transportation options, ensuring a seamless and informed experience for presenters and attendees."
+    },
+    {
+        "id": 5,
+        "title": "User-Friendly Registration",
+        "description": "Attendees can register for conferences with ease. Receive timely reminders on the day of the event, and have registration confirmations conveniently delivered to your email."
+    }
+]

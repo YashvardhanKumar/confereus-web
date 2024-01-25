@@ -1,25 +1,46 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar';
+import logo from './logo.svg'
+import { Link, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ConferenceCard from './components/card/ConferenceCard';
+import meetingImg from './assets/meeting3.jpeg'
+import meetingImg2 from './assets/meeting2.jpeg'
+import DetailsCard from './components/card/DetailsCard';
+
+import landingDetails from './utils/data.json'
+import Home from './components/pages/Home';
+import SignUp from './components/pages/SignUp';
+import Login from './components/pages/Login';
+import BottomNav from './components/BottomNav';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className='flex flex-col justify-between h-screen'>
+
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/about" element={<About />} /> */}
+          {/* <Route
+            path="/contact"
+            element={<Contact />}
+        />
+        <Route path="/blogs" element={<Blogs />} /> */}
+          <Route
+            path="/sign-up"
+            element={<SignUp />}
+          />
+          <Route
+            path="/login"
+            element={<Login />}
+          />
+        </Routes>
+        <BottomNav />
+      </div>
+
+    </Router>
   );
 }
 
